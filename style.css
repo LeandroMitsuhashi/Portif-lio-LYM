@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+:root {
+    --cor0: #11189E;
+    --cor1: #4F58FF;
+    --cor2: #313BEB;
+    --cor3: #9E7F02;
+    --cor4: #ebc63183;
+    --cor5: #020533;
+    --cor6: #e8eaf8;
+
+    --fonte-titulo: 'Zen Antique', serif;
+    --fonte-padrao: 'Lato', 'sans-serif';
+    --fonte-diferente: 'Kalam', cursive;
+}
+/*
+font-family: 'sans-serif';
+*/
+* {
+    margin: 0px;
+    padding: 0px;    
+}
+
+body {
+    background: var(--cor6);
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-color: var(--cor6);
+    width: 100%;
+    position: relative;
+    padding: 20px;
+    border-bottom: 3px solid var(--cor5)
+}
+
+i#burger {
+    color: var(--cor5);
+    display: block;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+}
