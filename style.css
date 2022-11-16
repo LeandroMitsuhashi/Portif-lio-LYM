@@ -23,10 +23,87 @@
 font-family: 'sans-serif';
 */
 * {
+    box-sizing: border-box;
     margin: 0px;
-    padding: 0px;    
+    padding: 0px;
+    outline: 0;    
 }
 
+header {
+    background-color: var(--cor6);
+    width: 100%;
+    position: relative;
+    padding: 20px;
+    border-bottom: 3px solid var(--cor5)
+}
+.nav-button {
+    border: 0;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: var(--cor0);
+    margin: 8px;
+    cursor: pointer;
+}
+
+.nav-button i {
+    color: #fff;
+}
+
+.overlay {
+    width: 0%;
+    height: 100%;
+    background-color: var(--cor5);
+    z-index: 9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    color: var(--cor6);
+    display: block;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: var(--cor4)
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 20px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a { font-size: 20px;}    
+    .overlay, .closebtn {
+        font-size: 10px;
+        top: 15px;
+        right: 25px;
+    }
+}
+
+.logo {
+    position: relative;
+    
+}
+
+/*
 body {
     background: var(--cor6);
     font-family: var(--fonte-padrao);
@@ -38,12 +115,6 @@ header {
     position: relative;
     padding: 20px;
     border-bottom: 3px solid var(--cor5)
-}
-
-i#burger {
-    color: var(--cor5);
-    display: block;
-    padding: 10px;
 }
 
 a {
