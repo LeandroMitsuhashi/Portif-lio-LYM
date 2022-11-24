@@ -7,3 +7,9 @@ Foi colocado o menu hamburger e configuração para abrir em toda a página quan
 Troca da imagem da logo;
 
 Ajuste na posição da logo;
+
+Troca da logo pela foto;
+
+inicio da composição do main;
+
+feito o rodapé;

@@ -19,9 +19,7 @@
     --fonte-padrao: 'Lato', 'sans-serif';
     --fonte-diferente: 'Kalam', cursive;
 }
-/*
-font-family: 'sans-serif';
-*/
+
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -30,19 +28,55 @@ font-family: 'sans-serif';
 }
 
 header {
-    background-color: var(--cor6);
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor6));
     width: 100%;
     position: relative;
-    padding: 20px;
+    padding: 3em;
     border-bottom: 3px solid var(--cor5)
 }
+
+header li {
+    color: white;
+    font-style: italic;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.foto {
+    width: 10em;
+    border-radius: 10px;
+}
+
+.phone {
+    width: 3em;
+}
+
+li {
+    list-style: none;
+}
+
+.diferenciais,
+.premios {
+    padding: 1em;
+    margin: 60px;
+    font-size: 1em;
+    border-radius: 15px;
+    box-shadow:  0px 7px 7px rgba(0, 0, 0, 0.32)
+}
+
 .nav-button {
-    border: 0;
     border-radius: 4px;
     padding: 2px;
-    background-color: var(--cor5);
+    background-color: rgba(13, 28, 119, 0.063);
     margin: 2px;
     cursor: pointer;
+    border: solid 1px transparent;
 }
 
 .nav-button i {
@@ -98,14 +132,6 @@ header {
     }
 }
 
-.logo {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    
-}
-
-/*
 body {
     background: var(--cor6);
     font-family: var(--fonte-padrao);
@@ -122,4 +148,41 @@ header {
 a {
     text-decoration: none;
     margin: 0 10px 0 10px;
+}
+
+main {
+    margin: 2em;
+}
+
+.container-eu {
+    padding: 1em;
+    margin: 3em;
+    text-align: justify;
+    text-indent: 2em;
+    font-size: 1em;
+    border-radius: 15px;
+    box-shadow:  0px 7px 7px rgba(0, 0, 0, 0.32);
+    
+}
+
+.eu > h1{
+    font-size: 5em;
+    color: var(--cor5);
+
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+footer {
+    background-color: var(--cor5);   
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 0.8em;
+    font-style: italic;
+    padding: 5px;
 }
