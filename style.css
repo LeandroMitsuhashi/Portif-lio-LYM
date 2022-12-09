@@ -151,7 +151,6 @@ a {
 
 main {
     margin: 20px;
-    width: 100%;
 }
 .container1 {
     display: flex;
@@ -237,24 +236,6 @@ main {
     height: 35px;
 }
 
-/*
-.cabeca-contato {
-    flex-direction: column;
-    justify-content: center;
-    border-top: 1px solid;
-    color: #000000;
-    padding: 10px 0 20px 0;
-}
-
-#contato {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    margin: 20px 40px;
-}*/
-
 footer {
     background-color: var(--cor5);   
     color: rgb(255, 255, 255);
@@ -263,7 +244,6 @@ footer {
     font-style: italic;
     padding: 5px;
 }
-
 
 /* slider */
 
