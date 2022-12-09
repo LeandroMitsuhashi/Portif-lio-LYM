@@ -1,15 +1,15 @@
-let passe = 5;
+let count = 1;
 document.getElementById("radio5").checked = true;
 
 setInterval( function(){
     nextImage();
-}, 5000) //ou 2000
+}, 2000) //ou 2000
 
 function nextImage(){
-    passe++;
-    if(passe>8){
-        passe = 1
+    count++;
+    if(count>4){
+        count = 1
     }
 
-    document.getElementById("radio"+passe).checked = true;
+    document.getElementById("radio"+count).checked = true;
 }

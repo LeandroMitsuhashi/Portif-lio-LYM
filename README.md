@@ -13,3 +13,7 @@ Troca da logo pela foto;
 inicio da composição do main;
 
 feito o rodapé;
+
+Troca do background color do mais;
+slides 1, inserido figuras das linguagens;
+novo formato do contato;
