@@ -281,7 +281,7 @@ footer {
     position: absolute;
     width: 400px;
     margin-top: -40px;
-    display: flex;
+    display: none;
     justify-content: center;
 }
 
@@ -294,7 +294,7 @@ footer {
 }
 
 .manual-btn:not(:last-child) {
-    margin-right: 40px;
+    margin-right: 10px;
 }
 
 .manual-btn:hover {
@@ -326,15 +326,15 @@ footer {
 }
 
 .navigation-auto {
-    position: absolute;
+    position: fixed;
     width: 400px;
     margin-top: 260px;
-    display: flex;
+    display: none;
     justify-content: center;
 }
 
 .navigation-auto div:not(:last-child) {
-    margin-right: 40px;
+    margin-right: 10px;
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1 {
